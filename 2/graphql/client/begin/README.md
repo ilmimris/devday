@@ -5,8 +5,8 @@ This is the beginning skeleton version of the react + apollo client frontend. Se
 ## Run
 
 ```
-npm install
-npm start
+yarn install
+yarn start
 ```
 
 This will start the dev web server at http://localhost:3001
