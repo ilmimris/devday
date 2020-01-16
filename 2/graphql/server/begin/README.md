@@ -1,17 +1,17 @@
 # GRAND Stack workshop - begin
 
-This project was created with [Apollo Launchpad](https://launchpad.graphql.com)
+<!-- This project was created with [Apollo Launchpad](https://launchpad.graphql.com)
 
-You can see the original pad at [https://launchpad.graphql.com/3x984k8mv](https://launchpad.graphql.com/3x984k8mv)
+You can see the original pad at [https://launchpad.graphql.com/3x984k8mv](https://launchpad.graphql.com/3x984k8mv) -->
 
 ### Quick start guide
 
 ```bash
-npm install
+yarn install
 export NEO4J_URI=bolt://<your value here>:7687/
 export NEO4J_USER=<your value here>
 export NEO4J_PASSWORD=<your value here>
-npm start
+yarn start
 ```
 
 The username and password for the default provided dataset is neo4j/admin.

@@ -33,12 +33,12 @@ We start with a skeleton GraphQL server application that uses `graphql-tools` an
 
 // TODO: add unit tests
 
-## Apollo Launchpad
+<!-- ## Apollo Launchpad
 
 For convenience, two Apollo Launchpad hosted GraphQL service instances are available:
 
 * **begin**: [https://launchpad.graphql.com/3x984k8mv](https://launchpad.graphql.com/3x984k8mv)
 * **end**: [https://launchpad.graphql.com/x57134qwl](https://launchpad.graphql.com/x57134qwl)
+ -->
 
-
-Once you've completed this section of the workshop, continue on with the [react-apollo](/react-apollo) exercise. Be sure to note the uri for the GraphQL endpoint you've created in this step, as you'll be connecting a React app to make use of it!
+Once you've completed this section of the workshop, continue on with the [react-apollo](/client) exercise. Be sure to note the uri for the GraphQL endpoint you've created in this step, as you'll be connecting a React app to make use of it!

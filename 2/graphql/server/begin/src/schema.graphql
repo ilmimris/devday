@@ -1,0 +1,14 @@
+type Movie {
+  movieId: ID!
+  title: String
+  year: Int
+  plot: String
+  poster: String
+  imdbRating: Float
+  genres: [String]
+  similar(first: Int=3, offset:Int=0): [Movie]
+}
+
+type Query {
+  moviesByTitle(subString: String!, first: Int=3, offset: Int=0): [Movie]
+}
