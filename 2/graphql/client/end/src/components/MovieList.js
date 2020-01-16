@@ -3,7 +3,7 @@
 
 import React from "react";
 import { Item } from "semantic-ui-react";
-import { graphql} from "react-apollo";
+import { graphql } from "react-apollo";
 import gql from "graphql-tag";
 import Movie from "./Movie";
 import {Component} from "react";
@@ -45,7 +45,7 @@ class MovieList extends Component {
 const MovieListWithData = graphql(
   gql`
       query MovieListQuery($title: String!){
-          movies: movies(subString: $title, limit:10) {
+          movies: moviesByTitle(subString: $title) {
               title
               movieId
               imdbRating

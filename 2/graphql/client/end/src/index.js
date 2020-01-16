@@ -10,7 +10,7 @@ import { ApolloProvider } from 'react-apollo';
 import { render } from 'react-dom';
 
 const client = new ApolloClient({
-  link: createHttpLink({ uri: 'https://3wzp7qnjv.lp.gql.zone/graphql' }),
+  link: createHttpLink({ uri: process.env.REACT_APP_GRAPHQL_URI || 'http://localhost:45000/' }),
   cache: new InMemoryCache(),
 });
 
